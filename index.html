@@ -14,8 +14,38 @@
   <h3>Student ID number: 1508018</h3>
 </div>
 
-<h1>Question: </h1>
-<h2>Answer: </h2>
-<h4>tes tet</h4>
+<h1>Content 1: how to Create an amazon Linux AMI Instance on AWS ?
+  </h1>
+<h2>Answer: we can create an AMI using the AWS Management Console or the command line. 
+  The following bellow summarizes the process for creating an Amazon EBS-backed AMI from a running EC2 instance. 
+  Start with an existing AMI, launch an instance, customize it, create a new AMI from it, and finally launch an instance of your new AMI.
+  The steps in the following steps match the steps in the procedure below.
+  1-Select an appropriate EBS-backed AMI to serve as a starting point for your new AMI, and configure it as needed prior to launch
+  2-Choose Launch to launch an instance of the EBS-backed AMI that you've selected. Accept the default values as you step through the wizard
+  3-While the instance is running, connect to it.
+  https://s3.eu-west-2.amazonaws.com/omedm/keyPairForAmazonLinuxServer.pem  
+  </h2>
+<h4>Content 2 : What kind of method you follow to analyze big data using cloud ?
+  
+  there are some best tools which used to analyze big data such as 
+  1- Hadoop
+  2-Cloudera
+  3-MongoDB
+  4- Talend
+  my opinion is that Hadoop is the best open source big data analyzer because inside Hadoop there are some cool tools in order that analyzing.
+As we know that Hadoop has three main parts in order to big data analyzing such as :
+1- Mapreduce
+2- pig
+3- hive
+Using those parts depends on our project or our big data.
+For financial or business it is better than use hive compare another types because in hevi we can connect with cloudera which is one of the best tools to big data analyzing . 
+
+
+
+How Hadoop works to analyzing big data ?  
+•	If we use MapReduce, then complex business logic needs to be written to handle the joins. We would have to think from map and reduce perspective and which particular code snippet will go into map and which one will go into reduce side. A lot of development effort needs to go into deciding how map and reduce joins will take place. We would not be able to map the data into schema format and all efforts need to be handled programmatically.
+•	If we are going to use Pig, then we would not be able to partition the data, which can be used for sample processing from a subset of data by a particular stock symbol or particular date or month. In addition to that Pig is more like a scripting language which is more suitable for prototyping and rapidly developing MapReduce based jobs. It also doesn’t provide the facility to map our data into an explicit schema format that seems more suitable for this case study.
+•	Hive not only provides a familiar programming model for people who know SQL, it also eliminates lots of boilerplate and sometimes tricky coding that we would have to do in MapReduce programming. If we apply Hive to analyze the stock data, then we would be able to leverage the SQL capabilities of Hive-QL as well as data can be managed in a particular schema. It will also reduce the development time as well and can manage joins between stock data also using Hive-QL which is of course pretty difficult in MapReduce. Hive also has its thrift servers, by which we can submit our Hive queries from anywhere to the Hive server, which in turn executes them. Hive SQL queries are being converted into map reduce jobs by Hive compiler, leaving programmers to think beyond complex programming and provides opportunity to focus on business problem.
+  
+  </h4>
 </body>
-</html>
